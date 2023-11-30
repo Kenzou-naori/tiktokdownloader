@@ -54,7 +54,7 @@ function App() {
         {error && <p className="error-message">{error}</p>}
         {data && (
           <div className="video-container">
-            <video controls width="640" height="360">
+            <video controls width="320" height="680">
               <source src={data.data.play} type="video/mp4" />  
               Your browser does not support the video tag.
             </video>
